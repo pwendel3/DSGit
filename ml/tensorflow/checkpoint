@@ -1,0 +1,3 @@
+model_checkpoint_path: "mnist_98_final.ckpt"
+all_model_checkpoint_paths: "/tmp/mnist_98_model.ckpt"
+all_model_checkpoint_paths: "mnist_98_final.ckpt"
