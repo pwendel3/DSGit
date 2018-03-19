@@ -1,17 +1,24 @@
+#install.packages('dplyr')
+#install.packages('ggplot2')
 library(ggplot2)
-install.packages('titanic')
+#install.packages('titanic')
 library(titanic)
 data('titanic_train',package='titanic')
 titanic<-titanic_train
 library(dplyr)
 
-#obj<-
-ggplot(titanic,aes(x=Fare,y=Age,color=Survived))+geom_point()+
-  geom_text(aes(label=Ticket),color="black")+ggtitle('Titanic GG')+
-  
-  xlab('check it out')
 
-install.packages('faraway')
+#obj<-
+titanic<-titanic %>% mutate(Survived=factor(Survived,
+                                            levels=c(0,1),
+                                            labels=c('Yes','No')))
+ggplot(titanic,aes(x=Fare,y=Age,color=Survived))+geom_point()+
+  #geom_text(aes(label=Ticket),color="black")+
+  ggtitle('Titanic GG')+
+  xlab('Fare ($ USD)')+ylab('Age (years)')
+
+#install.packages('faraway')
+#install.packages('nloptr')
 library(faraway)
 data(nepali)
 
@@ -34,16 +41,16 @@ ggplot(nepali,aes(x=ht,y=wt,color=sex,size=age))+geom_point(data=nepali)+xlab('H
 ggplot(nepali,aes(x=sex,y=ht,color=sex))+geom_boxplot()
 
 
-install.packages('gridExtra')
+#install.packages('gridExtra')
 library(gridExtra)
-install.packages('ggthemes')
+#install.packages('ggthemes')
 library(ggthemes)
 
 data(worldcup)
 data(nepali)
 
 
-install.packages('dlnm')
+#install.packages('dlnm')
 library(dlnm)
 data("chicagoNMMAPS")
 chic<-chicagoNMMAPS
