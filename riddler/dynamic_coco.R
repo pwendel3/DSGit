@@ -84,8 +84,8 @@ for(i in 2:8){
 
   }
 }
-surftib$pirates
-surftib$pirates<-rep(2:8,each=8)
+
+
 View(surftib)
 bigtib<-surftib%>%spread(monkey_take,min_coconuts)
 tibmat<-as.matrix(bigtib[,2:ncol(bigtib)])
