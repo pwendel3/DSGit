@@ -1,3 +1,5 @@
+
+#set to whatever directory you have this file in
 setwd('C://Users/pwendel/Documents/GitHub/DSGit/beerman')
 
 # you may need to install it
@@ -26,16 +28,16 @@ p<-plot_ly(mbdat,x=~month,y=~value,type='scatter',mode='marker',text=~name,
         hoverinfo='text')
 p
 
-# log scale, exponential
-pl<-plot_ly(mbdat,x=~month,y=~log(value),type='scatter',mode='marker',text=~name,
+# log scale for values
+pl<-plot_ly(mbdat,x=~log(month),y=~log(value),type='scatter',mode='marker',text=~name,
            hoverinfo='text')
 pl
 
 #fit a lil exponential model
-expmod<-lm(value~log(month),data=mbdat)
+expmod<-lm(log(value)~log(month),data=mbdat)
 summary(expmod)
 
-expred<-predict(expmod,list(month=1:24))
+expred<-exp(predict(expmod,list(month=1:24)))
 plot(1:24,expred)
 
 p2<-plot_ly(mbdat,x=~month,y=~value,type='scatter',mode='marker',text=~name,
