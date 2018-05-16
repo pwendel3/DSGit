@@ -1,7 +1,5 @@
 ref<-as.character(0:9)
 
-as.numeric(paste0(a[0],a[1],a[2]))
-
 for(a in 1:10){
   aa<-ref[a]
   for(b in 1:10){

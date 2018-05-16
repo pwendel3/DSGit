@@ -106,7 +106,7 @@ for(i in 2:8){
 
 
 View(surftib)
-bigtib<-surftib%>%spread(monkey_take,min_coconuts)
+bigtib<-surftib%>%filter(pirates<8)%>%spread(monkey_take,min_coconuts)
 tibmat<-as.matrix(bigtib[,2:ncol(bigtib)])
 
 p<-plot_ly(data=surftib,x=1:8,y=2:8,z=~tibmat)%>%
