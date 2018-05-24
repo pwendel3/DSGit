@@ -1,0 +1,12 @@
+name: lot_adv
+title: lot_adv
+username:
+account: pwendel3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 348507
+bundleId: 1391991
+url: https://pwendel3.shinyapps.io/lot_adv/
+when: 1527201641.38704
+asMultiple: FALSE
+asStatic: FALSE

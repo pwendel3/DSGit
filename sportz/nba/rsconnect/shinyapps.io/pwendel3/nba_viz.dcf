@@ -1,0 +1,12 @@
+name: nba_viz
+title: nba_viz
+username:
+account: pwendel3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 348505
+bundleId: 1391698
+url: https://pwendel3.shinyapps.io/nba_viz/
+when: 1527190278.31286
+asMultiple: FALSE
+asStatic: FALSE
