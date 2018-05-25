@@ -1,0 +1,2 @@
+http://stats.nba.com/stats/drafthistory/?LeagueID=00
+http://stats.nba.com/stats/draftcombinestats/?LeagueID=00&SeasonYear=2018-19

@@ -19,6 +19,12 @@ colnames(alldat)<-str_replace(colnames(alldat),'/','Per')
 colnames(alldat)<-str_replace(colnames(alldat),'3','Three')
 colnames(alldat)<-str_replace(colnames(alldat),'2','Two')
 
+# colnamer<-
+# 
+# l<-c()
+# for (i in 1:length(labelcol)){
+#   l<-c(l,eval(labelcol[i])=colnamer[i])
+# }
 
 alldat%>%mutate_if(is.numeric,as.double)
 # Define UI for application that draws a histogram
@@ -32,6 +38,7 @@ ui <- fillPage(
     sidebarPanel(div(style="overflow-y: scroll"),width=3,
       selectInput("var",
                   "Advanced Metric:",
+                  label = labelcol,
                  choices=colnames(alldat)[31:52],
                  selected='VORP'),
     
