@@ -5,8 +5,8 @@ account: pwendel3
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 348507
-bundleId: 1401629
+bundleId: 1401711
 url: https://pwendel3.shinyapps.io/lot_adv/
-when: 1527721856.95309
+when: 1527726123.17287
 asMultiple: FALSE
 asStatic: FALSE

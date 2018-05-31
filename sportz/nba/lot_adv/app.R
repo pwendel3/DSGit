@@ -12,7 +12,7 @@ library(ggplot2)
 library(tidyverse)
 library(plotly)
 #library(ggplotly)
-#setwd('C:/Users/pwend/Documents/GitHub/DSGit/sportz/nba')
+#setwd('C:/Users/pwendel/Documents/GitHub/DSGit/sportz/nba')
 alldat<-read_csv('lot_adv.csv')
 colnames(alldat)<-str_replace(colnames(alldat),'%','Percentage')
 colnames(alldat)<-str_replace(colnames(alldat),'/','Per')
@@ -28,6 +28,8 @@ colnames(alldat)<-str_replace(colnames(alldat),'2','Two')
 
 alldat%>%mutate_if(is.numeric,as.double)
 
+labeler<-
+
 # Define UI for application that draws a histogram
 ui <- fluidPage(div(style="overflow-y:scroll"),
   
@@ -40,7 +42,30 @@ ui <- fluidPage(div(style="overflow-y:scroll"),
       selectInput("var",
                   "Advanced Metric:",
                   
-                 choices=colnames(alldat)[31:52],
+                 choices=list(
+                   'Value over Replacement'='VORP',
+                   
+                   'Player Efficiency Rating'='PER',
+                   'True Shooting %'='TSPercentage',
+                   '3 Pt. Attempt Rate'='ThreePAr',
+                   'FT Attempt Rate'='FTr',
+                   'Off. Reb. %'='ORBPercentage',
+                   'Def. Reb. %'='DRBPercentage',
+                   'Tot. Reb. %'='TRBPercentage',
+                   'Ast. %'='ASTPercentage',
+                   'Steal %'='STLPercentage',
+                   'Block %'='BLKPercentage',
+                   'Turnover %'='TOVPercentage',
+                   'Usage %'='USGPercentage',
+                   'Off. Win Shares'='OWS',
+                   'Def. Win Shares'='DWS',
+                   'Win Shares'='WS_season',
+                   'Win Shares per 48'='WSPer48_season',
+                   'Off. Box +/-'='OBPM',
+                   'Def. Box +/-'='DBPM',
+                   'Box +/-'='BPM'
+                   
+                 ),
                  selected='VORP'),
     
     sliderInput("drafts",
@@ -52,7 +77,7 @@ ui <- fluidPage(div(style="overflow-y:scroll"),
     
   
   sliderInput("exp",
-              "Years Experience:",
+              "Years Since Drafted:",
               min = 1,
               max = 5,
               step=1,sep='',
@@ -69,7 +94,7 @@ ui <- fluidPage(div(style="overflow-y:scroll"),
                      selected=alldat$Pos_season%>%unique()),
               
   sliderInput("minmin",
-              "Minimum Minutes in Season:",
+              "Minimum Minutes Played in Season:",
               min = 0,
               max = 4000,
               step=100,sep='',
@@ -105,7 +130,8 @@ server <- function(input, output) {
       #geom_smooth(na.rm=TRUE,se=FALSE,size=1,linetype='dashed')+
       geom_jitter(width=0.225)+
       facet_grid(sincedrafted~.)+
-      geom_smooth(aes_string(x='Pk',y=input$var),na.rm=TRUE,se=FALSE,size=1,linetype='dashed',col='black',inherit.aes=FALSE)
+      geom_smooth(aes_string(x='Pk',y=input$var),na.rm=TRUE,se=FALSE,size=1,linetype='dashed',col='black',inherit.aes=FALSE)+
+      xlab('Pick')+ylab('')+theme(legend.title=element_blank())
    p<-ggplotly(p,tooltip='text',height=500*(input$exp[2]-input$exp[1]+1))
   #p<-plotly_build(p)
   #heightin<-reactive({paste0(as.character(*500),'px')})

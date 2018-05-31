@@ -5,8 +5,8 @@ account: pwendel3
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 348505
-bundleId: 1391698
+bundleId: 1401705
 url: https://pwendel3.shinyapps.io/nba_viz/
-when: 1527190278.31286
+when: 1527725751.99862
 asMultiple: FALSE
 asStatic: FALSE
