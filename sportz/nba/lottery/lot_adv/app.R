@@ -12,23 +12,23 @@ library(ggplot2)
 library(tidyverse)
 library(plotly)
 #library(ggplotly)
-#setwd('C:/Users/pwendel/Documents/GitHub/DSGit/sportz/nba')
+#setwd('C:/Users/pwendel/Documents/GitHub/DSGit/sportz/nba/lottery/lot_adv')
 alldat<-read_csv('lot_adv.csv')
-colnames(alldat)<-str_replace(colnames(alldat),'%','Percentage')
-colnames(alldat)<-str_replace(colnames(alldat),'/','Per')
-colnames(alldat)<-str_replace(colnames(alldat),'3','Three')
-colnames(alldat)<-str_replace(colnames(alldat),'2','Two')
-
-# colnamer<-
+# colnames(alldat)<-str_replace(colnames(alldat),'%','Percentage')
+# colnames(alldat)<-str_replace(colnames(alldat),'/','Per')
+# colnames(alldat)<-str_replace(colnames(alldat),'3','Three')
+# colnames(alldat)<-str_replace(colnames(alldat),'2','Two')
 # 
-# l<-c()
-# for (i in 1:length(labelcol)){
-#   l<-c(l,eval(labelcol[i])=colnamer[i])
-# }
+# # colnamer<-
+# # 
+# # l<-c()
+# # for (i in 1:length(labelcol)){
+# #   l<-c(l,eval(labelcol[i])=colnamer[i])
+# # }
+# 
+# alldat%>%mutate_if(is.numeric,as.double)
 
-alldat%>%mutate_if(is.numeric,as.double)
 
-labeler<-
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(div(style="overflow-y:scroll"),

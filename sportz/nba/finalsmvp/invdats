@@ -1,0 +1,113 @@
+,Player,Team,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,Game,Year,Champ,MVP,GS,GSGRank,GSARank
+1,Moses Malone,Houston Rockets,45,4,17,0.235,0,0,0.0,5,6,0.833,8,7,15,3,3,1,1,1,13,1.0,1981.0,Boston Celtics,Cedric Maxwell,14.399999999999999,3.0,836.0
+13,Cedric Maxwell,Boston Celtics,34,4,12,0.33299999999999996,0,0,0.0,2,2,1.0,5,4,9,5,0,1,4,4,10,1.0,1981.0,Boston Celtics,Cedric Maxwell,6.500000000000002,10.0,1850.0
+20,Moses Malone,Houston Rockets,48,10,24,0.41700000000000004,0,0,0.0,11,18,0.611,7,8,15,1,1,2,2,1,31,2.0,1981.0,Boston Celtics,Cedric Maxwell,23.4,1.0,230.0
+31,Cedric Maxwell,Boston Celtics,37,3,8,0.375,0,0,0.0,0,0,0.0,2,2,4,2,0,0,3,4,6,2.0,1981.0,Boston Celtics,Cedric Maxwell,0.3999999999999999,17.0,3384.0
+41,Cedric Maxwell,Boston Celtics,36,9,16,0.563,0,0,0.0,1,2,0.5,9,1,10,0,0,2,4,4,19,3.0,1981.0,Boston Celtics,Cedric Maxwell,13.399999999999999,4.0,931.5
+52,Moses Malone,Houston Rockets,40,7,13,0.5379999999999999,0,0,0.0,9,12,0.75,6,9,15,2,0,4,1,1,23,3.0,1981.0,Boston Celtics,Cedric Maxwell,25.200000000000003,1.0,163.0
+65,Cedric Maxwell,Boston Celtics,41,9,14,0.643,0,0,0.0,6,9,0.667,9,5,14,1,0,1,4,2,24,4.0,1981.0,Boston Celtics,Cedric Maxwell,21.000000000000004,1.0,331.0
+76,Moses Malone,Houston Rockets,48,11,30,0.36700000000000005,0,0,0.0,2,2,1.0,9,13,22,0,0,0,3,4,24,4.0,1981.0,Boston Celtics,Cedric Maxwell,12.999999999999998,4.0,970.5
+83,Moses Malone,Houston Rockets,41,7,14,0.5,0,0,0.0,6,10,0.6,6,5,11,0,0,4,4,2,20,5.0,1981.0,Boston Celtics,Cedric Maxwell,15.100000000000001,2.0,769.0
+95,Cedric Maxwell,Boston Celtics,39,10,13,0.769,0,0,0.0,8,10,0.8,7,8,15,3,1,2,1,3,28,5.0,1981.0,Boston Celtics,Cedric Maxwell,31.69999999999999,1.0,44.0
+110,Cedric Maxwell,Boston Celtics,40,7,11,0.636,0,0,0.0,5,6,0.833,2,3,5,6,0,0,3,4,19,6.0,1981.0,Boston Celtics,Cedric Maxwell,15.599999999999998,4.0,731.0
+120,Moses Malone,Houston Rockets,47,9,21,0.429,0,0,0.0,5,7,0.7140000000000001,10,6,16,2,1,2,1,2,23,6.0,1981.0,Boston Celtics,Cedric Maxwell,21.9,2.0,297.0
+129,Magic Johnson,Los Angeles Lakers,45,4,10,0.4,0,0,0.0,2,3,0.667,5,9,14,9,1,0,7,3,10,1.0,1982.0,Los Angeles Lakers,Magic Johnson,9.5,11.0,1355.5
+137,Julius Erving,Philadelphia 76ers,39,9,18,0.5,0,2,0.0,9,12,0.75,4,5,9,3,3,1,3,1,27,1.0,1982.0,Los Angeles Lakers,Magic Johnson,23.500000000000004,1.0,223.5
+149,Magic Johnson,Los Angeles Lakers,44,6,14,0.429,0,2,0.0,6,7,0.857,4,7,11,7,4,0,5,3,18,2.0,1982.0,Los Angeles Lakers,Magic Johnson,17.8,3.0,551.0
+158,Julius Erving,Philadelphia 76ers,36,10,15,0.667,0,0,0.0,4,7,0.5710000000000001,5,9,14,3,0,2,1,1,24,2.0,1982.0,Los Angeles Lakers,Magic Johnson,24.6,1.0,184.0
+169,Julius Erving,Philadelphia 76ers,32,6,14,0.429,0,0,0.0,9,14,0.643,1,2,3,3,1,2,3,5,21,3.0,1982.0,Los Angeles Lakers,Magic Johnson,12.399999999999999,5.0,1025.5
+180,Magic Johnson,Los Angeles Lakers,34,8,9,0.889,0,0,0.0,6,7,0.857,2,7,9,8,3,0,3,5,22,3.0,1982.0,Los Angeles Lakers,Magic Johnson,25.6,2.0,145.0
+193,Julius Erving,Philadelphia 76ers,38,11,15,0.733,0,0,0.0,3,4,0.75,0,3,3,4,0,1,5,4,25,4.0,1982.0,Los Angeles Lakers,Magic Johnson,16.299999999999997,4.0,662.5
+201,Magic Johnson,Los Angeles Lakers,43,8,15,0.5329999999999999,0,1,0.0,8,9,0.889,3,5,8,7,1,0,0,3,24,4.0,1982.0,Los Angeles Lakers,Magic Johnson,24.599999999999998,1.0,185.5
+211,Magic Johnson,Los Angeles Lakers,40,4,9,0.444,0,0,0.0,2,4,0.5,3,7,10,4,2,0,5,4,10,5.0,1982.0,Los Angeles Lakers,Magic Johnson,6.9,10.0,1792.0
+224,Julius Erving,Philadelphia 76ers,42,10,19,0.526,0,0,0.0,3,3,1.0,3,9,12,4,2,1,3,1,23,5.0,1982.0,Los Angeles Lakers,Magic Johnson,20.6,3.0,360.0
+236,Julius Erving,Philadelphia 76ers,43,11,24,0.45799999999999996,0,1,0.0,8,10,0.8,6,2,8,3,5,1,4,0,30,6.0,1982.0,Los Angeles Lakers,Magic Johnson,25.400000000000002,1.0,156.5
+245,Magic Johnson,Los Angeles Lakers,44,2,3,0.667,0,0,0.0,9,9,1.0,3,10,13,13,4,2,6,5,13,6.0,1982.0,Los Angeles Lakers,Magic Johnson,23.299999999999997,2.0,236.5
+1137,Clyde Drexler,Portland Trail Blazers,37,9,19,0.474,0,2,0.0,3,3,1.0,3,6,9,6,1,0,1,5,21,1.0,1990.0,Detroit Pistons,Isiah Thomas,17.400000000000002,3.0,576.5
+1145,Isiah Thomas,Detroit Pistons,38,13,27,0.48100000000000004,2,3,0.667,5,6,0.833,1,6,7,6,1,0,2,3,33,1.0,1990.0,Detroit Pistons,Isiah Thomas,23.400000000000006,1.0,226.0
+1154,Clyde Drexler,Portland Trail Blazers,43,13,20,0.65,1,2,0.5,6,8,0.75,0,3,3,3,2,0,4,3,33,2.0,1990.0,Detroit Pistons,Isiah Thomas,23.2,3.0,240.0
+1166,Isiah Thomas,Detroit Pistons,44,9,21,0.429,2,4,0.5,3,6,0.5,3,4,7,11,1,2,7,6,23,2.0,1990.0,Detroit Pistons,Isiah Thomas,14.700000000000003,4.0,800.0
+1174,Isiah Thomas,Detroit Pistons,41,6,8,0.75,0,1,0.0,9,11,0.818,1,4,5,8,1,0,6,4,21,3.0,1990.0,Detroit Pistons,Isiah Thomas,17.89999999999999,3.0,547.0
+1184,Clyde Drexler,Portland Trail Blazers,43,9,23,0.391,1,6,0.16699999999999998,5,6,0.833,6,7,13,8,3,1,5,4,24,3.0,1990.0,Detroit Pistons,Isiah Thomas,20.099999999999998,2.0,394.0
+1197,Isiah Thomas,Detroit Pistons,34,11,20,0.55,4,5,0.8,6,6,1.0,1,3,4,5,3,0,3,3,32,4.0,1990.0,Detroit Pistons,Isiah Thomas,26.299999999999997,2.0,124.0
+1210,Clyde Drexler,Portland Trail Blazers,41,14,19,0.737,0,1,0.0,6,9,0.667,3,5,8,10,2,0,3,2,34,4.0,1990.0,Detroit Pistons,Isiah Thomas,33.900000000000006,1.0,23.0
+1218,Isiah Thomas,Detroit Pistons,35,13,20,0.65,3,3,1.0,0,2,0.0,2,1,3,5,2,0,7,3,29,5.0,1990.0,Detroit Pistons,Isiah Thomas,18.400000000000002,1.0,496.0
+1229,Clyde Drexler,Portland Trail Blazers,40,6,13,0.462,0,1,0.0,8,11,0.727,1,5,6,4,1,0,4,6,20,5.0,1990.0,Detroit Pistons,Isiah Thomas,11.699999999999998,3.0,1101.0
+1807,Shawn Kemp,Seattle SuperSonics,41,9,14,0.643,0,0,0.0,14,16,0.875,5,3,8,2,2,1,7,6,32,1.0,1996.0,Chicago Bulls,Michael Jordan,24.10000000000001,1.0,201.0
+1819,Michael Jordan,Chicago Bulls,41,9,18,0.5,1,4,0.25,9,10,0.9,0,7,7,2,2,1,2,4,28,1.0,1996.0,Chicago Bulls,Michael Jordan,21.2,3.0,323.5
+1832,Shawn Kemp,Seattle SuperSonics,40,8,18,0.444,0,1,0.0,13,16,0.813,8,5,13,2,1,4,3,3,29,2.0,1996.0,Chicago Bulls,Michael Jordan,26.5,1.0,123.0
+1841,Michael Jordan,Chicago Bulls,43,9,22,0.409,1,2,0.5,10,16,0.625,2,4,6,8,2,0,2,3,29,2.0,1996.0,Chicago Bulls,Michael Jordan,21.8,2.0,303.5
+1853,Michael Jordan,Chicago Bulls,41,11,23,0.478,3,4,0.75,11,11,1.0,2,1,3,5,2,0,3,1,36,3.0,1996.0,Chicago Bulls,Michael Jordan,28.1,1.0,94.0
+1866,Shawn Kemp,Seattle SuperSonics,42,4,7,0.5710000000000001,0,0,0.0,6,6,1.0,1,3,4,0,0,4,5,5,14,3.0,1996.0,Chicago Bulls,Michael Jordan,8.099999999999998,7.0,1586.0
+1877,Michael Jordan,Chicago Bulls,41,6,19,0.316,0,2,0.0,11,13,0.846,1,2,3,2,1,0,4,3,23,4.0,1996.0,Chicago Bulls,Michael Jordan,9.799999999999997,7.0,1308.5
+1892,Shawn Kemp,Seattle SuperSonics,33,12,17,0.706,0,0,0.0,1,1,1.0,3,8,11,3,2,1,1,4,25,4.0,1996.0,Chicago Bulls,Michael Jordan,24.599999999999998,1.0,185.5
+1901,Michael Jordan,Chicago Bulls,43,11,22,0.5,0,4,0.0,4,5,0.8,2,2,4,1,1,0,2,3,26,5.0,1996.0,Chicago Bulls,Michael Jordan,15.100000000000001,3.0,769.0
+1913,Shawn Kemp,Seattle SuperSonics,46,8,16,0.5,0,0,0.0,6,8,0.75,3,7,10,3,0,0,4,4,22,5.0,1996.0,Chicago Bulls,Michael Jordan,13.899999999999999,4.0,880.0
+1926,Shawn Kemp,Seattle SuperSonics,40,8,17,0.47100000000000003,0,0,0.0,2,2,1.0,6,8,14,3,3,2,4,6,18,6.0,1996.0,Chicago Bulls,Michael Jordan,16.0,3.0,686.5
+1935,Michael Jordan,Chicago Bulls,43,5,19,0.263,1,3,0.33299999999999996,11,12,0.917,3,6,9,7,2,0,5,3,22,6.0,1996.0,Chicago Bulls,Michael Jordan,14.899999999999999,4.0,789.5
+2794,Chauncey Billups,Detroit Pistons,39,8,14,0.5710000000000001,2,4,0.5,4,4,1.0,1,2,3,4,3,0,2,1,22,1.0,2004.0,Detroit Pistons,Chauncey Billups,20.100000000000005,2.0,388.0
+2805,Shaquille O'Neal,Los Angeles Lakers,45,13,16,0.813,0,0,0.0,8,12,0.667,5,6,11,1,0,1,6,4,34,1.0,2004.0,Detroit Pistons,Chauncey Billups,25.500000000000007,1.0,150.0
+2814,Chauncey Billups,Detroit Pistons,47,6,15,0.4,2,2,1.0,13,14,0.929,2,2,4,9,0,0,3,1,27,2.0,2004.0,Detroit Pistons,Chauncey Billups,23.400000000000002,1.0,227.0
+2826,Shaquille O'Neal,Los Angeles Lakers,48,10,20,0.5,0,0,0.0,9,14,0.643,3,4,7,3,0,1,3,5,29,2.0,2004.0,Detroit Pistons,Chauncey Billups,18.099999999999998,3.0,527.5
+2837,Shaquille O'Neal,Los Angeles Lakers,38,7,14,0.5,0,0,0.0,0,2,0.0,2,6,8,1,1,0,2,5,14,3.0,2004.0,Detroit Pistons,Chauncey Billups,7.100000000000001,5.0,1744.5
+2850,Chauncey Billups,Detroit Pistons,36,5,11,0.455,2,5,0.4,7,7,1.0,0,2,2,3,1,0,2,1,19,3.0,2004.0,Detroit Pistons,Chauncey Billups,14.600000000000001,2.0,808.5
+2861,Shaquille O'Neal,Los Angeles Lakers,47,16,21,0.762,0,0,0.0,4,11,0.364,3,17,20,2,0,1,2,4,36,4.0,2004.0,Detroit Pistons,Chauncey Billups,30.6,1.0,58.5
+2877,Chauncey Billups,Detroit Pistons,37,7,12,0.583,2,5,0.4,7,9,0.778,0,4,4,4,2,0,3,3,23,4.0,2004.0,Detroit Pistons,Chauncey Billups,18.400000000000002,3.0,496.0
+2886,Shaquille O'Neal,Los Angeles Lakers,35,7,13,0.5379999999999999,0,0,0.0,6,16,0.375,2,6,8,1,1,0,1,4,20,5.0,2004.0,Detroit Pistons,Chauncey Billups,12.000000000000002,5.0,1058.0
+2900,Chauncey Billups,Detroit Pistons,33,3,5,0.6,0,1,0.0,8,8,1.0,0,3,3,6,0,0,3,2,14,5.0,2004.0,Detroit Pistons,Chauncey Billups,12.999999999999996,3.0,972.5
+2910,Chauncey Billups,Detroit Pistons,43,9,16,0.563,1,4,0.25,6,6,1.0,0,4,4,6,4,1,1,1,25,1.0,2005.0,San Antonio Spurs,Tim Duncan,26.1,1.0,129.5
+2921,Tim Duncan,San Antonio Spurs,41,10,22,0.455,0,0,0.0,4,5,0.8,6,11,17,2,0,2,3,2,24,1.0,2005.0,San Antonio Spurs,Tim Duncan,18.699999999999996,3.0,476.5
+2933,Chauncey Billups,Detroit Pistons,40,6,14,0.429,0,3,0.0,1,1,1.0,1,4,5,3,0,0,4,3,13,2.0,2005.0,San Antonio Spurs,Tim Duncan,4.400000000000002,13.0,2308.0
+2945,Tim Duncan,San Antonio Spurs,37,5,10,0.5,0,0,0.0,8,9,0.889,3,8,11,1,0,4,2,2,18,2.0,2005.0,San Antonio Spurs,Tim Duncan,17.799999999999997,2.0,555.0
+2960,Tim Duncan,San Antonio Spurs,38,5,15,0.33299999999999996,0,0,0.0,4,4,1.0,3,7,10,4,3,1,2,3,14,3.0,2005.0,San Antonio Spurs,Tim Duncan,13.0,4.5,966.0
+2974,Chauncey Billups,Detroit Pistons,37,6,12,0.5,3,7,0.429,5,7,0.7140000000000001,2,4,6,7,0,0,1,5,20,3.0,2005.0,San Antonio Spurs,Tim Duncan,17.7,2.0,559.5
+2983,Tim Duncan,San Antonio Spurs,39,5,17,0.294,0,0,0.0,6,9,0.667,3,13,16,2,0,3,3,2,16,4.0,2005.0,San Antonio Spurs,Tim Duncan,10.6,5.0,1198.5
+2996,Chauncey Billups,Detroit Pistons,38,5,14,0.35700000000000004,0,4,0.0,7,7,1.0,0,5,5,7,2,0,1,1,17,4.0,2005.0,San Antonio Spurs,Tim Duncan,16.200000000000003,2.0,666.5
+3007,Tim Duncan,San Antonio Spurs,48,11,24,0.45799999999999996,0,0,0.0,4,11,0.364,8,11,19,2,0,2,2,3,26,5.0,2005.0,San Antonio Spurs,Tim Duncan,19.299999999999997,2.0,438.0
+3019,Chauncey Billups,Detroit Pistons,44,11,26,0.423,2,7,0.28600000000000003,10,11,0.909,3,2,5,7,0,0,1,2,34,5.0,2005.0,San Antonio Spurs,Tim Duncan,25.599999999999998,1.0,147.5
+3027,Chauncey Billups,Detroit Pistons,39,6,16,0.375,5,9,0.556,4,4,1.0,2,4,6,6,0,0,0,4,21,6.0,2005.0,San Antonio Spurs,Tim Duncan,17.4,2.0,580.5
+3035,Tim Duncan,San Antonio Spurs,40,8,14,0.5710000000000001,0,0,0.0,5,10,0.5,5,10,15,1,0,1,0,2,21,6.0,2005.0,San Antonio Spurs,Tim Duncan,19.499999999999996,1.0,427.0
+3044,Chauncey Billups,Detroit Pistons,40,3,8,0.375,0,3,0.0,7,8,0.875,1,3,4,8,1,0,1,4,13,7.0,2005.0,San Antonio Spurs,Tim Duncan,13.799999999999999,3.0,892.0
+3053,Tim Duncan,San Antonio Spurs,42,10,27,0.37,0,0,0.0,5,6,0.833,5,6,11,3,0,2,5,2,25,7.0,2005.0,San Antonio Spurs,Tim Duncan,12.7,5.0,995.5
+3678,Dirk Nowitzki,Dallas Mavericks,40,7,18,0.389,1,2,0.5,12,12,1.0,0,8,8,2,0,0,2,4,27,1.0,2011.0,Dallas Mavericks,Dirk Nowitzki,17.4,3.0,580.5
+3690,Dwyane Wade,Miami Heat,38,9,19,0.474,2,4,0.5,2,5,0.4,3,7,10,6,0,2,3,1,22,1.0,2011.0,Dallas Mavericks,Dirk Nowitzki,17.5,2.0,571.5
+3698,Dirk Nowitzki,Dallas Mavericks,42,10,22,0.455,1,2,0.5,3,3,1.0,1,10,11,4,0,1,5,2,24,2.0,2011.0,Dallas Mavericks,Dirk Nowitzki,14.0,4.0,868.5
+3709,Dwyane Wade,Miami Heat,42,13,20,0.65,2,7,0.28600000000000003,8,12,0.667,2,3,5,6,3,1,1,2,36,2.0,2011.0,Dallas Mavericks,Dirk Nowitzki,34.0,1.0,21.5
+3719,Dwyane Wade,Miami Heat,38,12,21,0.5710000000000001,2,4,0.5,3,4,0.75,3,8,11,3,1,1,0,3,29,3.0,2011.0,Dallas Mavericks,Dirk Nowitzki,25.799999999999997,2.0,141.0
+3729,Dirk Nowitzki,Dallas Mavericks,41,11,21,0.524,3,5,0.6,9,9,1.0,1,10,11,1,1,3,3,1,34,3.0,2011.0,Dallas Mavericks,Dirk Nowitzki,27.799999999999997,1.0,100.5
+3741,Dwyane Wade,Miami Heat,39,13,20,0.65,0,2,0.0,6,9,0.667,4,2,6,2,2,2,2,3,32,4.0,2011.0,Dallas Mavericks,Dirk Nowitzki,27.000000000000004,1.0,116.0
+3750,Dirk Nowitzki,Dallas Mavericks,39,6,19,0.316,0,2,0.0,9,10,0.9,0,11,11,1,0,0,3,2,21,4.0,2011.0,Dallas Mavericks,Dirk Nowitzki,9.899999999999999,6.0,1287.5
+3762,Dwyane Wade,Miami Heat,34,6,12,0.5,1,2,0.5,10,12,0.833,0,2,2,8,2,1,4,2,23,5.0,2011.0,Dallas Mavericks,Dirk Nowitzki,20.299999999999997,2.0,379.5
+3772,Dirk Nowitzki,Dallas Mavericks,39,9,18,0.5,1,1,1.0,10,10,1.0,0,6,6,3,1,0,2,2,29,5.0,2011.0,Dallas Mavericks,Dirk Nowitzki,22.099999999999998,1.0,279.5
+3781,Dirk Nowitzki,Dallas Mavericks,38,9,27,0.33299999999999996,1,7,0.14300000000000002,2,2,1.0,0,11,11,1,2,0,2,4,21,6.0,2011.0,Dallas Mavericks,Dirk Nowitzki,8.100000000000003,9.0,1570.0
+3791,Dwyane Wade,Miami Heat,41,6,16,0.375,0,4,0.0,5,7,0.7140000000000001,3,5,8,6,1,2,5,3,17,6.0,2011.0,Dallas Mavericks,Dirk Nowitzki,11.399999999999999,7.0,1130.5
+4071,LeBron James,Miami Heat,32,9,17,0.529,2,3,0.667,5,6,0.833,3,3,6,3,3,0,4,1,25,1.0,2014.0,San Antonio Spurs,Kawhi Leonard,20.000000000000007,2.0,397.0
+4086,Kawhi Leonard,San Antonio Spurs,23,3,5,0.6,2,3,0.667,1,2,0.5,0,2,2,0,1,0,4,3,9,1.0,2014.0,San Antonio Spurs,Kawhi Leonard,2.6999999999999984,15.0,2756.0
+4097,LeBron James,Miami Heat,37,14,22,0.636,3,3,1.0,4,5,0.8,2,8,10,3,2,0,4,3,35,2.0,2014.0,San Antonio Spurs,Kawhi Leonard,27.500000000000004,1.0,107.0
+4113,Kawhi Leonard,San Antonio Spurs,31,3,9,0.33299999999999996,2,3,0.667,1,2,0.5,0,2,2,3,1,0,0,6,9,2.0,2014.0,San Antonio Spurs,Kawhi Leonard,4.799999999999999,12.0,2232.5
+4125,Kawhi Leonard,San Antonio Spurs,39,10,13,0.769,3,6,0.5,6,7,0.857,1,3,4,2,2,2,1,4,29,3.0,2014.0,San Antonio Spurs,Kawhi Leonard,27.299999999999994,1.0,108.0
+4139,LeBron James,Miami Heat,39,9,14,0.643,2,4,0.5,2,3,0.667,1,4,5,7,5,0,7,5,22,3.0,2014.0,San Antonio Spurs,Kawhi Leonard,18.2,2.0,521.0
+4153,Kawhi Leonard,San Antonio Spurs,38,7,12,0.583,1,3,0.33299999999999996,5,6,0.833,5,9,14,3,3,3,1,3,20,4.0,2014.0,San Antonio Spurs,Kawhi Leonard,25.2,1.0,165.0
+4168,LeBron James,Miami Heat,37,10,17,0.588,4,8,0.5,4,6,0.667,0,8,8,2,0,0,3,0,28,4.0,2014.0,San Antonio Spurs,Kawhi Leonard,20.099999999999998,2.0,394.0
+4181,LeBron James,Miami Heat,41,10,21,0.47600000000000003,3,9,0.33299999999999996,8,9,0.889,1,9,10,5,0,2,1,1,31,5.0,2014.0,San Antonio Spurs,Kawhi Leonard,26.8,1.0,120.0
+4197,Kawhi Leonard,San Antonio Spurs,33,7,10,0.7,3,4,0.75,5,6,0.833,2,8,10,2,1,1,3,6,22,5.0,2014.0,San Antonio Spurs,Kawhi Leonard,18.9,2.0,465.0
+4210,LeBron James,Cleveland Cavaliers,45,18,38,0.474,2,8,0.25,6,10,0.6,0,8,8,6,0,0,4,2,44,1.0,2015.0,Golden State Warriors,Andre Iguodala,24.8,1.0,177.5
+4228,Andre Iguodala,Golden State Warriors,31,6,8,0.75,2,3,0.667,1,2,0.5,0,3,3,2,1,1,1,2,15,1.0,2015.0,Golden State Warriors,Andre Iguodala,13.599999999999998,6.0,915.5
+4237,LeBron James,Cleveland Cavaliers,50,11,35,0.314,3,6,0.5,14,18,0.778,4,12,16,11,1,1,3,3,39,2.0,2015.0,Golden State Warriors,Andre Iguodala,28.899999999999995,1.0,77.0
+4256,Andre Iguodala,Golden State Warriors,36,3,5,0.6,1,2,0.5,0,1,0.0,2,4,6,5,1,0,4,5,7,2.0,2015.0,Golden State Warriors,Andre Iguodala,5.399999999999999,7.0,2100.0
+4270,Andre Iguodala,Golden State Warriors,36,6,12,0.5,2,8,0.25,1,2,0.5,1,4,5,5,0,1,0,1,15,3.0,2015.0,Golden State Warriors,Andre Iguodala,14.299999999999997,3.0,849.0
+4279,LeBron James,Cleveland Cavaliers,46,14,34,0.41200000000000003,2,6,0.33299999999999996,10,12,0.833,1,11,12,8,4,2,4,1,40,3.0,2015.0,Golden State Warriors,Andre Iguodala,31.6,1.0,45.5
+4294,Andre Iguodala,Golden State Warriors,39,8,15,0.5329999999999999,4,9,0.444,2,2,1.0,1,7,8,0,1,0,1,4,22,4.0,2015.0,Golden State Warriors,Andre Iguodala,15.899999999999999,3.0,699.5
+4307,LeBron James,Cleveland Cavaliers,40,7,22,0.318,1,4,0.25,5,10,0.5,2,10,12,8,0,0,2,5,20,4.0,2015.0,Golden State Warriors,Andre Iguodala,11.400000000000002,7.0,1125.0
+4321,LeBron James,Cleveland Cavaliers,44,15,34,0.441,3,8,0.375,7,9,0.778,1,13,14,11,1,0,2,5,40,5.0,2015.0,Golden State Warriors,Andre Iguodala,30.700000000000003,1.0,53.5
+4335,Andre Iguodala,Golden State Warriors,42,5,11,0.455,2,5,0.4,2,11,0.182,1,7,8,7,3,0,0,2,14,5.0,2015.0,Golden State Warriors,Andre Iguodala,14.600000000000001,4.0,808.5
+4351,Andre Iguodala,Golden State Warriors,36,9,20,0.45,3,8,0.375,4,10,0.4,1,4,5,5,2,0,0,4,25,6.0,2015.0,Golden State Warriors,Andre Iguodala,18.0,4.0,534.0
+4363,LeBron James,Cleveland Cavaliers,46,13,33,0.39399999999999996,2,10,0.2,4,8,0.5,3,15,18,9,2,0,6,3,32,6.0,2015.0,Golden State Warriors,Andre Iguodala,20.200000000000006,2.0,381.5
+4705,LeBron James,Cleveland Cavaliers,47,19,32,0.594,3,7,0.429,10,11,0.909,4,4,8,8,1,1,5,2,51,1.0,2018.0,Golden State Warriors,Kevin Durant,41.30000000000001,1.0,2.0
+4721,Kevin Durant,Golden State Warriors,46,8,22,0.364,1,7,0.14300000000000002,9,10,0.9,0,9,9,6,1,3,1,3,26,1.0,2018.0,Golden State Warriors,Kevin Durant,21.2,4.0,323.5
+4733,LeBron James,Cleveland Cavaliers,43,10,20,0.5,2,4,0.5,7,9,0.778,1,8,9,13,2,0,5,2,29,2.0,2018.0,Golden State Warriors,Kevin Durant,26.599999999999998,1.0,122.0
+4748,Kevin Durant,Golden State Warriors,38,10,14,0.7140000000000001,2,3,0.667,4,4,1.0,0,9,9,7,0,2,3,3,26,2.0,2018.0,Golden State Warriors,Kevin Durant,25.0,2.0,172.5
+4761,Kevin Durant,Golden State Warriors,43,15,23,0.652,6,9,0.667,7,7,1.0,1,12,13,7,1,1,3,3,43,3.0,2018.0,Golden State Warriors,Kevin Durant,39.60000000000001,1.0,4.0
+4775,LeBron James,Cleveland Cavaliers,46,13,28,0.46399999999999997,1,6,0.16699999999999998,6,7,0.857,3,7,10,11,2,2,4,2,33,3.0,2018.0,Golden State Warriors,Kevin Durant,28.70000000000001,2.0,80.0
+4791,Kevin Durant,Golden State Warriors,37,7,17,0.41200000000000003,0,3,0.0,6,6,1.0,1,11,12,10,1,3,2,3,20,4.0,2018.0,Golden State Warriors,Kevin Durant,21.8,2.0,303.5
+4803,LeBron James,Cleveland Cavaliers,40,7,13,0.5379999999999999,0,1,0.0,9,11,0.818,1,6,7,8,0,1,6,5,23,4.0,2018.0,Golden State Warriors,Kevin Durant,16.7,3.0,623.0

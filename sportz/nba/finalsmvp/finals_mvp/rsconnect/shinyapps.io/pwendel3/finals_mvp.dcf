@@ -1,0 +1,12 @@
+name: finals_mvp
+title: finals_mvp
+username:
+account: pwendel3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 358232
+bundleId: 1435692
+url: https://pwendel3.shinyapps.io/finals_mvp/
+when: 1529341187.78891
+asMultiple: FALSE
+asStatic: FALSE
