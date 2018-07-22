@@ -1,0 +1,12 @@
+name: pbj_delivery
+title: pbj_delivery
+username:
+account: pwendel3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 377156
+bundleId: 1472337
+url: https://pwendel3.shinyapps.io/pbj_delivery/
+when: 1531173086.05045
+asMultiple: FALSE
+asStatic: FALSE
