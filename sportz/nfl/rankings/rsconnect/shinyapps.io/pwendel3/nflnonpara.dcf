@@ -1,0 +1,12 @@
+name: nflnonpara
+title: nflnonpara
+username:
+account: pwendel3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 386290
+bundleId: 1495398
+url: https://pwendel3.shinyapps.io/nflnonpara/
+when: 1532358771.92455
+asMultiple: FALSE
+asStatic: FALSE
