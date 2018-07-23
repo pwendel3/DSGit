@@ -41,6 +41,10 @@ ui <- fluidPage(
                ),
                tabPanel('Defense',
                  plotlyOutput('dplot')
+               ),
+               
+               tabPanel('Combined',
+                        plotlyOutput('aplot')
                )
              )
            ),
@@ -73,7 +77,15 @@ server <- function(input, output) {
                                          Team,`Avg. Yards Off.`,`Off. Adjusted Rankscore`))
      )+
        geom_point()
-     ggplotly(p)
+     ggplotly(p,tooltip='text')
+   })
+   output$aplot<-renderPlotly({
+     p<-alldat%>%ggplot(aes(x=`Def. Adjusted Rankscore`,y=`Off. Adjusted Rankscore`,
+                            text=sprintf('%s<br>Def. Adjusted Rankscore.: %.2f<br> Off. Adjusted Rankscore: %.2f',
+                                         Team,`Def. Adjusted Rankscore`,`Off. Adjusted Rankscore`))
+     )+
+       geom_point()
+     ggplotly(p,tooltip='text')
    })
 }
 
