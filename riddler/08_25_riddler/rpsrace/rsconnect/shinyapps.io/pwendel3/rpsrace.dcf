@@ -1,0 +1,12 @@
+name: rpsrace
+title: rpsrace
+username:
+account: pwendel3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 410023
+bundleId: 1557039
+url: https://pwendel3.shinyapps.io/rpsrace/
+when: 1535413624.60634
+asMultiple: FALSE
+asStatic: FALSE
