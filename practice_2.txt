@@ -298,6 +298,108 @@ SELECT
 FROM
 	top_10;
 
+CREATE TABLE shows --========================
+(
+  SHOW_ID        	integer,
+  SHOW_TITLE  	varchar(100),
+  EPISODE_ID    	integer,
+  RUNTIME        	integer,
+  RATING            	integer,
+  LAUNCH_DATE	date
+);
+
+
+CREATE TABLE streams --=====================
+(
+  REGION_ID   		integer,
+  STREAM_ID   		integer,
+  CUSTOMER_ID 	integer,
+  STREAM_DATE 	date,
+  EPISODE_ID     	integer
+);
+
+INSERT INTO shows VALUES
+(1, 'Silicon Valley', NULL, NULL, 8.2, to_date('2016-04-01','YYYY-MM-DD')),
+(1, 'Silicon Valley', 11, 30, NULL, to_date('2016-04-01','YYYY-MM-DD')),
+(1, 'Silicon Valley', 12, 28, NULL, to_date('2016-04-01','YYYY-MM-DD')),
+(1, 'Silicon Valley', 13, 20, NULL, to_date('2016-04-01','YYYY-MM-DD')),
+(1, 'Silicon Valley', 14, 32, NULL, to_date('2016-04-01','YYYY-MM-DD')),
+(3, 'Mr. Robot', NULL, NULL, 8.2, to_date('2016-04-23','YYYY-MM-DD')),
+(3, 'Mr. Robot', 31, 60, NULL, to_date('2016-04-23','YYYY-MM-DD')),
+(3, 'Mr. Robot', 32, 55, NULL, to_date('2016-04-23','YYYY-MM-DD')),
+(3, 'Mr. Robot', 33, 40, NULL, to_date('2016-04-23','YYYY-MM-DD'));
+
+INSERT INTO streams VALUES
+(1,91766, 4, to_date('2016-05-01','YYYY-MM-DD'), 11),
+(1,72745, 5, to_date('2016-05-01','YYYY-MM-DD'), 32),
+(1,72589, 8, to_date('2016-05-01','YYYY-MM-DD'), 31),
+(1,63619, 1, to_date('2016-05-01','YYYY-MM-DD'), 31),
+(1,51324, 7, to_date('2016-05-01','YYYY-MM-DD'), 13),
+(1,93863, 4, to_date('2016-05-02','YYYY-MM-DD'), 12),
+(1,12993, 4, to_date('2016-05-02','YYYY-MM-DD'), 13),
+(1,99591, 7, to_date('2016-05-02','YYYY-MM-DD'), 32),
+(1,92247, 6, to_date('2016-05-02','YYYY-MM-DD'), 12),
+(1,81441, 7, to_date('2016-05-02','YYYY-MM-DD'), 32),
+….
+
+
+/* Count the number of customers in each region */
+
+SELECT REGION_ID, COUNT(DISTINCT CUSTOMER_ID)
+FROM STREAMS
+GROUP BY REGION_ID;
+
+
+/* Compute a running total for minutes watched by customer by dates, assume customers watched the entire episode */
+
+SELECT
+STREAMS.CUSTOMER_ID,STREAMS.STREAM_DATE,
+SUM(SHOWS.RUNTIME) OVER (ORDER BY STREAMS.CUSTOMER_ID,STREAMS.STREAM_DATE)
+FROM
+STREAMS
+JOIN
+SHOWS
+ON STREAMS.EPISODE_ID=SHOWS.EPISODE_ID
+
+/* Customers watch many different shows with different ratings 
+(note the ratings are at the show level, not at the episode level). 
+We want to compute an “average” rating metric for each customer. 
+Please suggest a metric. */
+
+WITH SHOW_RATINGS AS(
+SELECT 
+    STREAMS1.SHOW_ID,STREAMS1.RUNTIME,STREAMS1.EPISODE_ID,STREAMS2.RATING
+FROM 
+SELECT(SHOW_ID,RUNTIME,EPISODE_ID
+FROM
+STREAMS
+WHERE EPISODE_ID IS NOT NULL) STREAMS1
+JOIN
+SELECT(RATING,SHOW_ID
+FROM
+STREAMS
+WHERE
+EPISODE_ID IS NULL) STREAMS2
+ON 
+STREAMS1.SHOW_ID=STREAMS2.SHOW_ID
+),
+SELECT 
+FROM
+(
+SELECT *, RUNTIME*RATING AS WEIGHT_RATING,
+FROM
+STREAMS
+JOIN
+SHOW_RATINGS
+ON
+STREAMS.SHOW_ID=SHOW_RATINGS.SHOW_ID
+) GROUP BY CUSTOMER_ID
+
+
+STEP 3
+AGGREGATE THE WEIGHT_RATING AND AGGREGATION OF MINUTES WATCHED TO CALCULATE THE WEIGHTED AVERAGE 
+OF THE SHOWS WATCHED TAKING INTO ACCOUNT NUMBER OF MINUTES WATCHED WHILE SCALING TO PREVIOUSLY 
+DEFINED BOUNDS 
 
 
 
